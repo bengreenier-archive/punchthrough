@@ -1,0 +1,41 @@
+{
+  "name": "punchthrough",
+  "version": "0.1.0",
+  "description": "proxy requests across boundries",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "punchthrough": "punchthrough.js"
+  },
+  "keywords": [
+    "proxy"
+  ],
+  "author": "Ben Greenier",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "socket.io-client": "^1.4.8"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "debug": "^2.2.0",
+    "request": "^2.73.0",
+    "socket.io": "^1.4.8",
+    "socket.io-client": "^1.4.8",
+    "yargs": "^4.8.0"
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bengreenier/punchthrough.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bengreenier/punchthrough/issues"
+  },
+  "homepage": "https://github.com/bengreenier/punchthrough#readme"
+}
