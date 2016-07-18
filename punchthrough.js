@@ -28,7 +28,6 @@ io.on('query', function (queryOpts) {
     debug("got query " + JSON.stringify(queryOpts));
 
     request(queryOpts, function (err, res) {
-        debug("response " + res.statusCode);
         io.emit('response', err, res);
     });
 });
