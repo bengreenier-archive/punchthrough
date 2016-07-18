@@ -67,7 +67,7 @@ The API is a subset of the [request](https://npmjs.org/package/request) API:
 
 All the above return a promise.
 
-+ instance.close() - if you've constructed yur instance with `{port: <number>}` then this will shutdown the internally running http server
++ instance.close() - if you've constructed your instance with `{port: <number>}` then this will shutdown the internally running http server
 
 ## License
 
