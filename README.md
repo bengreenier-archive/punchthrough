@@ -1,7 +1,7 @@
 # punchthrough
 proxy requests across boundries
 
-> "If you can't do it, punch through it!" -@sjbawpn
+> "If you can't do it, punch through it!" -[@sjbawpn](https://github.com/sjbawpn)
 
 ## What?
 
