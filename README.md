@@ -1,6 +1,8 @@
 # punchthrough
 proxy requests across boundries
 
+> "If you can't do it, punch through it!" -@sjbawpn
+
 ## What?
 
 A module and cli to enable proxying of web requests across boundries. It works
